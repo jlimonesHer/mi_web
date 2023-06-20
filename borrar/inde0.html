@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JC.Limones">
+    <meta name="no robots" content="NOFOLLOW">
+    <meta name="description" content="pagina de practicas MasterD">
+    <meta name="keywords" content="programacion,desarrollo,web,diseño,presupuesto">
+    <meta name="revisit-after" content="7 days">
+    <meta name="category" content="mi_web">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css" id="style">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>JC.Limones desarrollo web</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <h1><a href="#">J.C. Limones website</a> </h1>
+            <span><a href="#">Log in</a></span>
+        </div>
+    </header>
+
+    <div id="div_menu">
+
+        <input type="button" value="Index" class="boton " id="botonen0">
+        <input type="button" value="Porfolio" class="boton " id="botonen1">
+        <input type="button" value="Presupuesto" class="boton " id="botonen2">
+        <input type="button" value="Contacto" class="boton " id="botonen3">
+        <input type="button" value="Registrarse" class="boton " id="botonen4">
+    </div>
+
+    <div id="container_index">
+        <div class="form_header">
+            <h1 class="form_title">Log in</h1>
+        </div>
+
+        <div id="login">
+            <form method="POST" id="formLogin">
+                <fieldset>
+                    <div id="div_login">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario"><br>
+
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password"><br>
+                    </div>
+                    <input type="submit" value="Entrar" id="btn_submit">
+                </fieldset>
+            </form>
+        </div>
+        <input type="button" value="Registrate" class="enviar" id="boton_reg">
+
+        <div id="respuesta">
+        </div>
+        <a href="php/includes/salir.php" class="enviar" id="close_session">Cerrar sesion</a>
+
+    </div>
+
+    <footer>
+        <div id="link_footer">
+            <div id="creditos">
+                ©::JC.Limones::Desarrollo y Diseño Web::Todos los derechos reservados::
+            </div>
+            <ul id="cookies">
+                <li><a href="#" class="avisos">Privacidad</a></li>
+                <li><a href="#" class="avisos">Aviso legal</a></li>
+                <li><a href="#" class="avisos">Cookies</a></li>
+                <li><a href="#" class="avisos">Condiciones</a></li>
+            </ul>
+            <span id="list_icons">
+                <img src="../img/icon_fb.png" alt="FaceBook" class="icons">
+                <img src="../img/icon_twitter.png" alt="Twitter" class="icons">
+                <img src="../img/icon_insta.png" alt="Instagram" class="icons">
+                <img src="../img/icon_LinKedin.png" alt="LinKedin" class="icons">
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
